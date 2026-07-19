@@ -1,0 +1,52 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# PHP / Laravel
+/vendor/
+/bootstrap/cache/
+/storage/*.key
+/storage/logs/*
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build
+dist/
+build/
+
+# Coverage
+coverage/
+
+# Temporary
+tmp/
+temp/
+
+# Secrets
+.env.local
+.env.production
+.env.development
+
+# Ollama
+ollama.log
+
+# Slack
+slack_tokens.json
+
+# Misc
+*.sqlite
